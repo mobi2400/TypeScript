@@ -1,0 +1,16 @@
+Typescript is not about reinventing JavaScript
+
+Typescript is just a way to write Javascript with a more precise manner
+
+TypeScript is all about "type safety nothing else" : 
+  Example: When we add 2 + "2" i.e we add string with a number, which in first case shouldn't be allowed gives a odd result of 22 (string). 
+  Some more example: 
+    - null + 2 = 2
+    - undefined + 2 = NaN
+
+What TypeScript Does: 
+  Static Checking - Whenever you are writing a code, it gets constantly checked from IDEs, this is not a case in JavaScript. The errors of JavaScript are thrown only when we run it through a runtime environment (NodeJs). This creates problem...
+
+In production grade, we write code in TypeScript and then later it is converted/transfiled to JavaScript file
+
+TypeScript is a development tool. Your projects still run JS.
