@@ -14,3 +14,9 @@ What TypeScript Does:
 In production grade, we write code in TypeScript and then later it is converted/transfiled to JavaScript file
 
 TypeScript is a development tool. Your projects still run JS.
+
+Types of data 
+1.number     5.undefined      9.tuples
+2.string     6.void           10.Any(vulnerable)
+3.boolean    7.object         11.never
+4.null       8.Array          12.Unknown
