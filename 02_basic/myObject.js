@@ -12,3 +12,6 @@ createUser({ name: "mobi", isPaid: true });
 function createCourse() {
     return {};
 }
+function createUser1(user) {
+    return { name: "", email: "", isActive: false };
+}

@@ -24,5 +24,15 @@ function createUser1(user:User) :User{
     return {name:"",email:"",isActive:false}
 }
 
+type User1 ={
+    readonly _id: string, // this cannot be change
+    name: string
+    eamil: string
+    isActive: boolean
+    creditCardDetail?:number //this is optional
+}
+
+
+
 
 export{}
